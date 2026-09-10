@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="./assets/images/favicon/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="./assets/images/favicon/favicon.svg" />
+  <link rel="shortcut icon" href="./assets/images/favicon/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/favicon/apple-touch-icon.png" />
+  <link rel="manifest" href="./assets/images/favicon/site.webmanifest" />
+  <title>Estatein: No. 1 real estate agency in Nigeria</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link href="./contact.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <div class="header-left">
+      <span>✨Discover Your Dream Property With Estatein</span>
+      <a href="">Learn More</a>
+    </div>
+    <div class="header-right">
+      <img src="./assets/images/cancel.png" alt="cancel icon" />
+    </div>
+  </header>
+  <nav>
+    <div>
+      <a href="/">
+        <img class="nav-logo-img" src="./assets/images/Logo.png" alt="estatein logo" />
+      </a>
+    </div>
+
+    <ul id="nav-links">
+      <li><a class="active-nav" href="/">Home</a></li>
+      <li><a href="/aboutus.html">About Us</a></li>
+      <li><a href="/properties.html">Properties</a></li>
+      <li><a href="/services.html">Services</a></li>
+      <li class="nav-contact-li">
+        <a class="contact-button" href="/contactus.html">Contact Us</a>
+      </li>
+    </ul>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false"
+        aria-controls="nav-links">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero-section">
+      <div>
+        <h2>Get in Touch With Estatein</h2>
+        <p>Welcome to estatein contact us page.We're here to assist you on any inquiries,
+          request or feedback you may have.Whether you're looking to buy or sell a property.
+          Explore investment opportunities,or simply want to connect.We are just a message away.
+          Reach out to us and let start a conversation.
+        </p>
+      </div>
+
+    </section>
+    <!-- section for feature cards display -->
+
+    <section id="features" class="section-feature">
+      <div class="feature-card">
+        <img src="./assets/images/info.png" alt="feature card " class="feature-card-icon" />
+        <img class="arrow-icon" src="./assets/images/arrowicon.png" alt="arrow icon" />
+        <p class="feature-text">info@estatein.com</p>
+      </div>
+      <div class="feature-card">
+        <img src="./assets/images/call.png" alt="feature card " class="feature-card-icon" />
+        <img class="arrow-icon" src="./assets/images/arrowicon.png" alt="arrow icon" />
+        <p class="feature-text">+1(123)456-7890</p>
+      </div>
+
+      <div class="feature-card">
+        <img src="./assets/images/location.png" alt="feature card " class="feature-card-icon" />
+        <img class="arrow-icon" src="./assets/images/arrowicon.png" alt="arrow icon" />
+        <p class="feature-text">Main Headquaters</p>
+      </div>
+
+      <div class="feature-card">
+        <img src="./assets/images/socialmedia.png" alt="feature card " class="feature-card-icon" />
+        <img class="arrow-icon" src="./assets/images/arrowicon.png" alt="arrow icon" />
+        <p class="feature-text">Instagram linkedin Facebook</p>
+      </div>
+    </section>
+
+    <!--contact section-->
+     <section>
+    <img
+          src="./assets/images/stars.png"
+          alt="feature stars"
+          class="feature-stars"
+        />
+    <div class="contact">
+      <h2>Let's Connect</h2>
+      <p>We're excited to connect with you and learn more about
+        the your real estate goal,use the form below to get in touch
+        with estatein.Whether you're a prospective client,<br>partner
+        or simply curious about our services.We're here to answer 
+        your question and provide the assistance you need. 
+      </p>
+    </div>
+
+
+    <div class="contact-form-container">
+      <form class="contact-form">
+        <div class="form-row">
+          <div class="form-group"> <label for="first-name"> First Name </label> <input type="text" id="first-name"
+              placeholder="Enter your first name" required> </div>
+          <div class="form-group"> <label for="last-name"> Last Name </label> <input type="text" id="last-name"
+              placeholder="Enter your last name" required> </div>
+              <div class="form-group"> <label for="email"> Email </label> <input type="email" id="email"
+              placeholder="Enter your email" required> </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group"> <label for="type"> inquiry type</label> <input type="type" id="type"
+              placeholder=" select inquiry type"> </div>
+          <div class="form-group"> <label for="phone"> Phone Number </label> <input type="tel" id="phone"
+              placeholder="Enter your phone number"> </div>
+              <div class="form-group"> <label for="select"> How did you hear about us </label> <input type="text" 
+          id="select"
+            placeholder="select"> </div>
+        </div>
+        
+        <div class="form-group"> <label for="message"> Message </label> <textarea id="message" rows="6"
+            placeholder="Write your message here..." required></textarea> </div> <!-- Checkbox -->
+            <div class="conclusion">
+        <div class="agreement"> <input type="checkbox" id="terms" required> <label for="terms"> I agree to the Terms of
+            Use and Privacy Policy. </label> </div> 
+            <button type="submit" class="submit-btn"> Send Your Message <i
+            class="fa-solid fa-arrow-right"></i> </button>
+            </div>
+            
+      </form>
+    </div>
+    </div>
+    </section>
